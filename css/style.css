@@ -1,0 +1,37 @@
+/* RESET STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: var(--paragraph);
+}
+h1 , h2 , h3 , h4{
+    color: var(--header);
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* COLOR VARIABLES */
+:root {
+    --footer-background: hsla(168, 34%, 41%, 0.6);
+    --footer-text: hsla(167, 40%, 24%, 0.8);
+    --white: hsl(0, 0%, 100%);
+    --paragraph: hsl(232, 10%, 55%);
+    --testmonials: hsl(210, 4%, 67%);
+    --header: hsl(212, 27%, 19%);
+    --green: hsla(167, 40%, 24%);
+    --blue: hsl(198, 62%, 26%);
+    --yellow: hsl(51, 100%, 49%);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
