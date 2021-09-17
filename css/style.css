@@ -311,5 +311,57 @@ body{
 }
 /* SECTIONs STYLE END */
 
+/* TESTMONIALS STYLE START */
+.testmonials .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.testmonials .container > h4{
+    font-size: 25px;
+    color: var(--paragraph);
+    font-family: sans-serif;
+}
+.personnes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+}
+.person img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 50px 0;
+}
+.person p{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    color: var(--header);
+}
+.person .person-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px 0 10px;
+}
+.person .person-job{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: var(--paragraph);
+}
+@media only screen and (max-width: 768px) {
+    .person{
+        margin-bottom: 60px;
+    }
+}
+/* TESTMONIALS STYLE END */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
