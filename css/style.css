@@ -401,5 +401,50 @@ body{
     .gal-four{ background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg); }
 }
 /* GALLERY STYLE END */
+
+/* FOOTER STYLE START */
+footer{
+    background-color: var(--footer-background);
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+footer .container h3{
+    font-size: 25px;
+    color: var(--footer-text);
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+footer .container ul{
+    padding: 30px 0 60px;
+    list-style: none;
+    display: flex;
+    width: 50%;
+    min-width: 300px;
+    justify-content: space-around;
+}
+footer .container ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: var(--footer-text);
+}
+footer .container ul li a:hover{
+    color: var(--white);
+}
+.social-icons{
+    display: flex;
+    width: 50%;
+    min-width: 300px;
+    justify-content: space-around;
+}
+.social-icons img{
+    cursor: pointer;
+}
+/* FOOTER STYLE END */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
