@@ -363,5 +363,43 @@ body{
     }
 }
 /* TESTMONIALS STYLE END */
+
+/* GALLERY STYLE START */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.gal{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    max-height: 500px;
+}
+.gal-one{ background-image: url(../images/desktop/image-gallery-milkbottles.jpg); }
+.gal-two{ background-image: url(../images/desktop/image-gallery-orange.jpg); }
+.gal-three{ background-image: url(../images/desktop/image-gallery-cone.jpg); }
+.gal-four{ background-image: url(../images/desktop/image-gallery-sugarcubes.jpg); }
+@media only screen and (max-width: 768px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 40vh 40vh;
+    }
+    .gal{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+        max-height: 500px;
+    }
+    .gal-one{ background-image: url(../images/mobile/image-gallery-milkbottles.jpg); }
+    .gal-two{ background-image: url(../images/mobile/image-gallery-orange.jpg); }
+    .gal-three{ background-image: url(../images/mobile/image-gallery-cone.jpg); }
+    .gal-four{ background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg); }
+}
+/* GALLERY STYLE END */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
